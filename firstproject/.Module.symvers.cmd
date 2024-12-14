@@ -1,0 +1,1 @@
+cmd_/home/bomin/firstproject/Module.symvers := sed 's/\.ko$$/\.o/' /home/bomin/firstproject/modules.order | scripts/mod/modpost -m -a  -o /home/bomin/firstproject/Module.symvers -e -i Module.symvers   -T -

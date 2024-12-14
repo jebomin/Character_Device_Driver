@@ -1,0 +1,1 @@
+cmd_/home/bomin/firstproject/dummy_driver.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/bomin/firstproject/dummy_driver.ko /home/bomin/firstproject/dummy_driver.o /home/bomin/firstproject/dummy_driver.mod.o;  true
